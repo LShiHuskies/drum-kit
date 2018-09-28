@@ -1,3 +1,13 @@
+
+#body {
+  background-image: url('https://userscontent2.emaze.com/images/4e959030-39e1-43e0-b2e8-e879b2423177/1c7d2800266b54deade719d1dfaf0d54.jpg');
+  background-size: cover;
+}
+
+.keys {
+  margin: 300px 0 50px 50px
+}
+
 .key {
   border: 4px solid black;
   border-radius: 5px;
@@ -10,6 +20,7 @@
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 5px black;
+  display: inline-block;
 }
 
 .playing {

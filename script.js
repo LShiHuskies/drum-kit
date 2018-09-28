@@ -7,10 +7,10 @@ window.addEventListener('keydown', (event) => {
   key.classList.add('playing');
 });
 
-const removeTransition = (event) => {
+function removeTransition(event){
+
   if (event.propertyName !== "transform") return;
-  console.log(event.propertyName);
-  this.classList.remove('playing')
+  this.classList.remove('playing');
 }
 
 
